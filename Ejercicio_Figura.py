@@ -1,0 +1,26 @@
+from Figura import *
+
+p1 = Punto(0,5)
+p2 = Punto(5,10)
+Cuadrado = Cuadrado(p1, p2)
+Circulo = Circulo(p1, p2)
+Rectangulo = Rectangulo(p1, p2)
+Triangulo = Triangulo(p1, p2)
+
+Cuadrado.calcular_area()
+Cuadrado.calcular_perimetro()
+Circulo.calcular_area()
+Circulo.calcular_perimetro()
+Rectangulo.calcular_area()
+Rectangulo.calcular_perimetro()
+Triangulo.calcular_area()
+Triangulo.calcular_perimetro()
+
+print (Cuadrado.area)
+print (Cuadrado.perimetro)
+print (Circulo.area)
+print (Circulo.perimetro)
+print (Rectangulo.area)
+print (Rectangulo.perimetro)
+print (Triangulo.area)
+print (Triangulo.perimetro)
